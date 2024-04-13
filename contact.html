@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="author" content="Chiamaka">
+    <meta name="description" content="This is a contact page">
+
+    <meta property="og:image" content="image.png">
+    <meta property="og:description" content="This is the contact page for my website">
+    <meta propety="og:title" content="Contact Page">
+    <link rel="shortcut icon" href="images\favicon.ico" type="images\favicon.ico">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex1">
+        <div class="header-left">
+          <img src="#" alt="" class="header-logo" />
+        </div>
+
+        <div class="header-right">
+          <nav>
+            <ul>
+              <a href="index.html" target="_blank"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="Contact" class="column">
+        <div class="container2">
+          <h2>CONTACT ME</h2>
+          <label for="fname">First Name:</label> <br />
+          <input type="text" id="fname" placeholder="First Name" /><br />
+
+          <label for="lname">Last Name: </label> <br />
+          <input type="text" id="lname" placeholder="Last Name" /> <br />
+
+          <label for="lname">Email Address:</label> <br />
+          <input type="email" id="email" placeholder="xxx@yahoo.com" /> <br />
+
+          <label for="gender">Gender: </label> <br />
+          <select id="sex">
+            <option value="">Select your gender</option>
+            <option value="male" id="male">Male</option>
+            <option value="female" id="female">Female</option>
+          </select>
+          
+          <br />
+          <br>
+          <br>
+
+          <label for="textarea">Message</label> <br>
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Write a message for me"></textarea>
+       
+
+          <button class="btn1" type="submit" value="submit">Submit</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <p>Copyrights Reserved 2024</p>
+    </footer>
+  </body>
+</html>
